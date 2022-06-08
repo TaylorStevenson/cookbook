@@ -155,7 +155,7 @@ h2 {
 .recipe-list .recipe-card {
   text-decoration: none;
   overflow: hidden;
-  height: 330px;
+  height: 290px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
