@@ -1,7 +1,7 @@
 ---
 layout: recipe
-title: "Butter Chicken"
-image: butter_chicken.jpeg
+title: "Caesar Salad"
+image: ceasar_salad.jpeg
 serves: 
 
 ingredients:
