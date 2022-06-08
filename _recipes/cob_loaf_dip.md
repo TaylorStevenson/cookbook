@@ -1,8 +1,8 @@
 ---
 
 layout: recipe
-title: "Chicken Soup"
-image: chicken-soup.jpg
+title: "Cob Loaf Dip"
+image: cob_loaf_dip.jpeg
 serves: NA
 
 ingredients:
