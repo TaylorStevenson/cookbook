@@ -291,6 +291,8 @@ h2 {
 @media (max-width: 850px) {
   .site-title h1 {
     font-size: 32pt;
+    text-align: center;
+    margin-left: 0px;
   }
   .home #search-bar-component {
     position: fixed;
