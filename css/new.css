@@ -63,7 +63,7 @@ footer #copyright {
 }
 
 h1, h2 {
-  width: 80%;
+  width: 100%;
   font-family: 'Lato', sans-serif;
   text-align: center;
   -ms-flex-line-pack: center;
