@@ -165,8 +165,6 @@ h2 {
           flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
-  -webkit-box-shadow: 0px 0px 1px black;
-          box-shadow: 0px 0px 1px black;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
   background-position: center;
@@ -194,10 +192,10 @@ h2 {
 }
 
 .recipe-list .recipe-card:hover {
-  border-left: 10px solid black;
-  border-right: 10px solid black;
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
+  border-left: 10px solid #FCE9E3;
+  border-right: 10px solid #FCE9E3;
+  border-top: 5px solid #FCE9E3;
+  border-bottom: 5px solid #FCE9E3;
 }
 
 .recipe-list .recipe-card:hover h3 {
