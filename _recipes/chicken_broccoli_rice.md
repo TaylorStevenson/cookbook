@@ -2,7 +2,7 @@
 
 layout: recipe
 title: "Chicken Broccoli Rice"
-image: chicken_broccoli_rice.jpg
+image: chicken_broccoli_rice.jpeg
 tags: chicken
 serves: 1 + leftovers
 

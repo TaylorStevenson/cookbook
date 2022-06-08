@@ -2,7 +2,7 @@
 
 layout: recipe
 title: "Birthday Mud Cake"
-image: chocolate_birthday_cake.jpg
+image: chocolate_birthday_cake.jpeg
 tags: chocolate
 serves: Lots
 

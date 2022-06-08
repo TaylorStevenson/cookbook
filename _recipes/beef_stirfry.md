@@ -2,7 +2,7 @@
 
 layout: recipe
 title: "Beef Stirfry"
-image: beef_stirfry.jpg
+image: beef_stirfry.jpeg
 tags: beef
 serves: 3
 
