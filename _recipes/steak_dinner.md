@@ -1,14 +1,17 @@
 ---
 
 layout: recipe
-title: ""
-image: .jpeg
+title: "Steak Dinner"
+image: steak_dinner.jpeg
 
 ingredients:
+- 
 - 
 
 directions:
 - 
+
 ---
 
-Marley spoon recipe.
+
+

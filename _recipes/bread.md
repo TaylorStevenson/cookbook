@@ -1,14 +1,15 @@
 ---
 
 layout: recipe
-title: ""
-image: .jpeg
+title: "Bread"
+image: bread.jpeg
+serves: NA
 
 ingredients:
 - 
 
 directions:
 - 
+
 ---
 
-Marley spoon recipe.
