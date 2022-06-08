@@ -78,11 +78,12 @@ h2 {
   font-size: 13pt;
   font-weight: 300;
   font-family: 'Lato', sans-serif;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .site-title h1 {
   margin-top: 100px;
+  width: 80%;
 }
 
 .site-subtitle {
