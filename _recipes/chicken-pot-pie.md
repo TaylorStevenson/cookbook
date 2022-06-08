@@ -1,27 +1,36 @@
 ---
 
 layout: recipe
-title: "Chicken Pot Pie"
-image: chicken-pot-pie.jpg
-tags: chicken, one-pot
-serves: 4
+title: "Birthday Mud Cake"
+image: chocolate_birthday_cake.jpg
+tags: chocolate
+serves: Lots
 
 ingredients:
-- rotisserie chicken
-- 2 onions
-- 2 turnips
-- lots of garlic
-- thyme
-- 3 tbsp of unsalted butter
-- 3 tbsp all-purpose flour
-- 1 cup dry white wine
-- 600ml cream
-- frozen peas
-- 1 or 2 sheets of puff pastry
+- 3 ounces semi-sweet chocolate
+- 1 1/12 cups hot brewed coffee
+- 3 cups caster sugar
+- 2 1/2 cups all-purpose flour
+- 1 1/2 cups unsweetened cocoa powder
+- 2 tsp baking soda
+- 3/4 tsp baking powder
+- 1 1/4 tsp salt
+- 3 large eggs
+- 3/4 cup vegetable oil
+- 1 1/2 cups buttermilk
+- 1 tsp vanilla 
+- ganache
 
 directions:
+- preheat oven to 148 degrees C.
+- line a cake tin.
+- combine chopped chocolate with hot brewed coffee until the chocolate is melted.
+- in a large bowl, sift together sugar, flour, cocoa, baking powder & soda, and salt.
+- in another large bowl, beat eggs until thick and lemon coloured.
+- slowly add the oil, buttermilk, vanilla and melted dark chocolate mixture to the eggs & beat.
+- add sugar & flour  mixture and beat until just combined.
 - 
 
 ---
 
-This recipe is from [Bon Appetit](https://www.bonappetit.com/recipe/one-skillet-rotisserie-chicken-pot-pie). Be sure to use a big enough skillet.
+Make your own buttermilk by combining 

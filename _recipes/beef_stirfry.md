@@ -1,10 +1,10 @@
 ---
 
 layout: recipe
-title: "Beef Stew"
-image: beef-stew.jpg
+title: "Beef Stirfry"
+image: beef_stirfry.jpg
 tags: beef
-serves: 4-6
+serves: 3
 
 ingredients:
 - 1kg rump or chuck steak
