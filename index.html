@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="home"> 
+  <!--
+  <div id="search-bar-component">
+    <input id="search-input" type="text" placeholder="Search..">
+  </div>
+  -->
+  <div>
+    <div class="clearfix">
+      <h2 class="site-subtitle">A collection of recipes we like</h2>
+      <div id="original-recipe-list" class="recipe-list">
+      {% assign sorted = site.recipes | sort:"date" %}
+      {% for post in sorted %}
+      <a class="recipe-card" href="{{ post.url | prepend: site.baseurl }}" {% for image in post.image %} style="background-image:url({{site.url}}/images/{{ image }})" {% endfor %}>
+        <h3>{{ post.title }}</h3>
+      </a>
+      {% endfor %}
+      </div> 
+      <div id="search-results-recipe-list" class="recipe-list disp-none">
+      </div> 
+  </div>
+  </div>
+  -->
+</div>
+
+<script>
+  // recipe search pseudocode
+  // When the user enters something into the search bar
+  // Look in the search.json file and get the recipes as objects (keep them)
+  // loop through and keep recipes that match the entered string in some collection
+  // hide the original recipe list (add class `disp-none`)
+  // add a `recipe-card` div for each matching recipe to the `search-results-recipe-list` div
+  //    template looks like: 
+  //              <a class="recipe-card" href=[[recipe url]] style="background-image:url([[image url]])">
+  //                  <h3>[[the title]]</h3>
+  //              </a>
+  //
+  // display the `search-results-recipe-list` div (remove class `disp-none`)
+  // if the texbox is empty, hide the search-results-recipe-list and display the original list
+</script>

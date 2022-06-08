@@ -1,0 +1,147 @@
+---
+layout: recipe-layout
+---
+<div class="recipe-page" itemscope itemtype="http://schema.org/Recipe">
+
+{% for image in page.image %}
+<div class="recipe-image">
+  <img itemprop="image" src="{{site.baseurl}}/images/{{ image }}" />
+  <!-- 
+    {% if page.imagecredit %}
+    {% for imagecredit in page.imagecredit %}
+      <a class="image-credit" href="{{ imagecredit }}" class="right">
+        <svg class="js-geomicon geomicon" width="14" height="14" data-icon="camera" viewBox="0 0 32 32" style="fill:currentcolor"><title>camera icon</title><path d="M0 6 L8 6 L10 2 L22 2 L24 6 L32 6 L32 28 L0 28 z M9 17 A7 7 0 0 0 23 17 A7 7 0 0 0 9 17"></path></svg>
+      </a>
+    {% endfor %}
+  {% endif %}
+  -->
+</div>
+{% endfor %}
+
+<article class="recipe">
+  <header class="post-header">
+    <h1 itemprop="name">{{ page.title }}</h1>
+  </header>
+  <div class="recipe-description" itemprop="description">{{page.content}}</div>
+  <div>{% include nutritional-information.html %} </div>
+  <div class="ingredients-and-method">
+    <div class="ingredients-section">
+      <!-- check if it's a component-based recipe -->
+      {% if page.components %}
+      <h4>{{ site.translation[site.language].components }}</h4>
+      <ul>
+        <!-- list components that make up recipe -->
+        {% for component in page.components %}
+        <li>{{ component | markdownify }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      <!-- end of components bit -->
+
+      {% if page.ingredients %}
+      <h4>{{ site.translation[site.language].ingredients }}</h4>
+      <ul itemprop="ingredients">
+        <!-- list ingredients that make up recipe -->
+        {% for ingredient in page.ingredients %}
+        <li itemprop="recipeIngredient">{{ ingredient | markdownify }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+
+    {% if page.directions %}
+    <div class="method-section">
+      <h4>{{ site.translation[site.language].directions }}</h4>
+      <ul class="method-list" itemprop="recipeInstructions">
+        {% for direction in page.directions %}
+        <li>{{ direction | markdownify }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+  </div>
+<!-- end recipe and directions -->
+
+<!-- check if it's a component-based recipe, render it -->
+  {% if page.components %}
+  <div class="components">
+    &darr; {{ site.translation[site.language].component_based }} &darr;
+  </div>
+
+  <div>
+  {% for component in page.components %}
+    <div>
+    {% for recipe in site.components %}
+    {% if recipe.title == component %}
+      <h4>{{recipe.title}}</h4>
+      {% for image in recipe.image %}
+      <div style="background-image:url({{site.baseurl}}/images/{{ image }});">
+        <img itemprop="photo" src="{{site.baseurl}}/images/{{ image }}" />
+      </div>
+        {% if recipe.imagecredit %}
+          {% for imagecredit in recipe.imagecredit %}
+            <a href="{{ imagecredit }}" class="right">
+              <svg width="14" height="14" data-icon="camera" viewBox="0 0 32 32" style="fill:currentcolor"><title>camera icon</title><path d="M0 6 L8 6 L10 2 L22 2 L24 6 L32 6 L32 28 L0 28 z M9 17 A7 7 0 0 0 23 17 A7 7 0 0 0 9 17"></path></svg>
+            </a>
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+
+      <h4>{{ site.translation[site.language].ingredients }}</h4>
+        <ul itemprop="ingredients">
+        {% for item in recipe.ingredients %}
+        <li itemprop="ingredient">{{ item | markdownify }}</li>
+        {% endfor %}
+      </ul>
+
+      <h4>{{ site.translation[site.language].directions }}</h4>
+        <ul itemprop="instructions">
+        {% for item in recipe.directions %}
+        <li>{{ item | markdownify }}</li>
+        {% endfor %}
+      </ul>
+
+    {% endif %}
+    {% endfor %}
+    </div>
+  {% endfor %}
+  </div>
+
+  {% endif %}
+<!-- end components -->
+
+  {% for category in page.categories %}
+    <p>{{ site.translation[site.language].category }}: <span itemprop="recipeCategory">{{ category }}</span></p>
+  {% endfor %}
+
+</article>
+
+</div>
+
+<script type="text/javascript">
+
+  $( document ).ready(function() {
+
+  jQuery.fn.clickToggle = function(a,b) {
+  var ab=[b,a];
+  function cb(){ ab[this._tog^=1].call(this); }
+  return this.on("click", cb);
+  };
+
+  $("ul li").append('<input type="checkbox">');
+  $("ul li").clickToggle(function(){
+    $(this).children("input").prop('checked', true);
+    var height = $(this).height();
+    var y = $(window).scrollTop();
+    $('html, body').animate({scrollTop: y+height+16}, 200);
+  }, function(){
+    $(this).children("input").prop('checked', false);
+    var height = $(this).height();
+    var y = $(window).scrollTop();
+    $('html, body').animate({scrollTop: y-height-16}, 200);
+  });
+
+  });
+
+</script>
