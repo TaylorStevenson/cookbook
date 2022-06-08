@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "Mexican Pizza"
+title: "Birthday Carrot Cake"
 image: .jpeg
 serves: 
 

@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "Mexican Pizza"
+title: "Best Ever Brownies"
 image: .jpeg
 serves: 
 

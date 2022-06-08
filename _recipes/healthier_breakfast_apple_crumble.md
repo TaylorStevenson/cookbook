@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "Mexican Pizza"
+title: "Healthier Breakfast Apple Crumble"
 image: .jpeg
 serves: 
 

@@ -1,18 +1,15 @@
 ---
+
 layout: recipe
-title: "Mexican Pizza"
+title: "Pasta Free Lasagna"
 image: .jpeg
-serves: 
 
 ingredients:
 - 
-- 
-- 
-- 
 
 directions:
-
 - 
 
 ---
 
+Marley spoon recipe.

@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "Mexican Pizza"
+title: "Apple Crumble"
 image: .jpeg
 serves: 
 

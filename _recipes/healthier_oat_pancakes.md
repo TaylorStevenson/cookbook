@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "Mexican Pizza"
+title: "Healthier Oat Pancakes"
 image: .jpeg
 serves: 
 

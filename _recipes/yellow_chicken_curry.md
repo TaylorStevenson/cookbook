@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "Mexican Pizza"
+title: "Yellow Chicken Pizza"
 image: .jpeg
 serves: 
 

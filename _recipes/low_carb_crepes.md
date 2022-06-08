@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "Mexican Pizza"
+title: "Low Carb Crepes"
 image: .jpeg
 serves: 
 
