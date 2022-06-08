@@ -63,7 +63,7 @@ footer #copyright {
 }
 
 h1, h2 {
-  width: 100%;
+  width: 80%;
   font-family: 'Lato', sans-serif;
   text-align: left;
   -ms-flex-line-pack: center;
@@ -75,7 +75,7 @@ h1, h2 {
 }
 
 h2 {
-  font-size: 15pt;
+  font-size: 13pt;
   font-weight: 300;
   font-family: 'Lato', sans-serif;
   margin-bottom: 50px;
