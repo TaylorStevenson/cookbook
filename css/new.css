@@ -65,14 +65,13 @@ footer #copyright {
 h1, h2 {
   width: 80%;
   font-family: 'Lato', sans-serif;
-  text-align: left;
+  text-align: center;
   -ms-flex-line-pack: center;
       align-content: center;
   font-size: 40pt;
   font-weight: 800;
   color: #212121;
   margin-bottom: 0;
-  margin-left: 340px;
 }
 
 h2 {
@@ -291,12 +290,6 @@ h2 {
 @media (max-width: 850px) {
   .site-title h1 {
     font-size: 32pt;
-    text-align: center;
-    margin-left: 0px;
-  }
-  .site-title h2 {
-    text-align: center;
-    margin-left: 0px;
   }
   .home #search-bar-component {
     position: fixed;
