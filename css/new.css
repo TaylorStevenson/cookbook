@@ -294,6 +294,10 @@ h2 {
     text-align: center;
     margin-left: 0px;
   }
+  .site-title h2 {
+    text-align: center;
+    margin-left: 0px;
+  }
   .home #search-bar-component {
     position: fixed;
     bottom: 0;
