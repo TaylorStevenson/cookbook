@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: "Apple Crumble"
-image: .jpeg
+image: apple_crumble.jpeg
 serves: 
 
 ingredients:
