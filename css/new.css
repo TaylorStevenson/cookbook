@@ -199,7 +199,7 @@ h2 {
   border-bottom: 1px solid #ffffff;
 }
 
-.recipe-list h3:hover {
+.recipe-list .recipe-card:hover h1 {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
