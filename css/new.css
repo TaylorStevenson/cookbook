@@ -97,12 +97,12 @@ h2 {
   border-radius: 100px;
   width: 45px;
   height: 45px;
-  background-color: #363636;
+  background-color: white;
   right: 8vw;
   bottom: 5vh;
   padding: 10px;
-  -webkit-box-shadow: 0px 0px 5px #333333;
-          box-shadow: 0px 0px 5px #333333;
+  -webkit-box-shadow: 0px 0px 5px white;
+          box-shadow: 0px 0px 5px white;
   margin: 0;
   text-align: center;
   background-image: url(../assets/search-icon.png);
@@ -197,10 +197,6 @@ h2 {
   border-right: 1px solid #ffffff;
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
-  -webkit-text-size-adjust: 20px;
-     -moz-text-size-adjust: 20px;
-      -ms-text-size-adjust: 20px;
-          text-size-adjust: 20px;
 }
 
 .recipe-page .recipe {
