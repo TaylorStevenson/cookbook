@@ -193,10 +193,17 @@ h2 {
 }
 
 .recipe-list .recipe-card:hover {
-  border-left: 1px solid #2f2f2f;
-  border-right: 1px solid #2f2f2f;
-  border-top: 1px solid #2f2f2f;
-  border-bottom: 1px solid #2f2f2f;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.recipe-list h3:hover {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .recipe-page .recipe {
@@ -215,9 +222,6 @@ h2 {
 }
 
 .recipe-page .recipe-image img {
-  border: 3px solid black;
-  border-left: 3px solid black;
-  border-right: 3px solid black;
   max-height: 400px;
 }
 
