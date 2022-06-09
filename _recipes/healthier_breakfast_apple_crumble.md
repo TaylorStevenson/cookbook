@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: "Healthier Breakfast Apple Crumble"
-image: .jpeg
+image: healthier_breakfast_apple_crumble.jpeg
 serves: 
 
 ingredients:
